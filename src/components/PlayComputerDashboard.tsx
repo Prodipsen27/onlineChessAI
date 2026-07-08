@@ -583,8 +583,8 @@ export const PlayComputerDashboard: React.FC<PlayComputerDashboardProps> = ({ on
         </div>
 
         {/* Right Side: Move History Block */}
-        <div className="w-full md:w-[280px] lg:w-[320px] flex flex-col">
-          <div className="flex-1 min-h-[300px] bg-[#141629] rounded-xl border border-[#2a2f4c] flex flex-col overflow-hidden shadow-xl">
+        <div className="w-full md:w-[280px] lg:w-[320px] flex flex-col md:relative min-h-[300px] md:min-h-0">
+          <div className="md:absolute md:inset-0 w-full h-full bg-[#141629] rounded-xl border border-[#2a2f4c] flex flex-col overflow-hidden shadow-xl">
             <div className="p-3 border-b border-[#2a2f4c] flex items-center justify-between">
               <span className="text-xs font-bold text-slate-300 uppercase tracking-widest flex items-center gap-2"><HistoryIcon className="w-4 h-4"/> Match Log</span>
             </div>
