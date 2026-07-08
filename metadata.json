@@ -1,0 +1,6 @@
+{
+  "name": "XLChess",
+  "description": "An interactive chess puzzle simulation platform featuring the Evergreen game state, custom drag-and-drop mechanics, a live event telemetry log, and move undo/reset control bindings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
